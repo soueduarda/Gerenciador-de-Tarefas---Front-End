@@ -1,0 +1,114 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif "Lucida Sans Unicode",
+    Geneva, Verdana, sans-serif;
+  padding: 30px;
+  background-color: #f4f4f4;
+  background-image: url(./assets/img-gradient3.jpg);
+  background-position: center;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.759);
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.criarTarefa {
+  background-color: rgb(169, 214, 176);
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.remover {
+  background-color: rgba(223, 80, 80, 0.783);
+  margin-left: 5px;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.concluir {
+  background-color: rgb(169, 214, 176);
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.taskform {
+  padding-bottom: 20px;
+}
+
+.titulo-task {
+  border-bottom: 0.5px solid black;
+  margin-bottom: 40px;
+}
+
+.todo {
+  background-color: rgba(217, 229, 204, 0.366);
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 10px;
+
+  align-items: center;
+}
+
+.editIcon {
+  display: flex;
+
+  gap: 10px;
+}
+
+.buttonIcon {
+  padding-top: 15px;
+}
+
+.category {
+  display: flex;
+}
+
+.text {
+  padding-top: 5px;
+}
+
+.content {
+  border: solid;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: rgb(144, 209, 149);
+  margin-bottom: 10px;
+}
+
+/* .geralg {
+  background-color: aqua;
+  border: solid;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(217, 229, 204, 0.366);
+} */
+
+/* .botoesVV {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+input,
+select {
+  box-sizing: border-box;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
